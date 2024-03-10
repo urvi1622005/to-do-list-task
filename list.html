@@ -5,36 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap')>
+    <style>
         </style>
         <link rel="stylesheet" href="list.css">
+        <link rel="stylesheet" href="list.js">
 
 </head>
 
 <body>
-
     <center>
-        <div class="border">
+    <div class="border">
             <h1 class="heading">To-Do List</h1>
             <div class="to">~~~today i have to do~~~</div>
-            <div class="input-widget">
-                <div>
-                    <div class="title"> Title</div>
-                    <div class="slash">----------</div>
-                </div>
-                <button class="submit">submit</button>
-            </div>
-            <div class="hii">hello
+            <div class="input-widget"></div>
+                <div class="group">
+                   <!--<div class="title">Title</div> --> 
+                   <input type="text" placeholder="title" value="" class="title" id="input-box">   
+                   <button onclick="addTask()" id="button">submit</button>
+            </div> <br>
+            <ul id="list-container">
+                <!-- <li class="checked">task 1</li>
+                <li>task 2</li>
+                <li>task 3</li>
+                <li>task 4</li> -->
+            </ul>
+            <!-- <div class="hii">hello
             <img class="dum" src="delete.svg" alt=""></div>
             <div class="nam">namaste
-                <img src="delete.svg" alt=""></div>
-            </div>
+                <img class="dum2" src="delete.svg" alt=""></div>
+            </div> -->
         </div>
     </center>
 
+    <!-- <script>
+        let input = document.getElementById("title")
+        let button = document.getElementById("button")
+        button.addEventListener("click", action )
+        function action(){
+            console.log(input.value)
+        };
+        let title = document.createElement('title')
+        input.appendChild(title)
+        title.innerHTML=value
+    </script> -->
 
 
 
+<script src="list.js"></script>
 </body>
 
 </html>
