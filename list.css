@@ -145,7 +145,7 @@ body {
     height: 30px;
     width:30px;
     border-radius: 50%;
-    background-image: url(unchecked.png);
+    /* background-image: url(unchecked.png); */
     background-size: cover;
     background-position: center;
     top:25px;
