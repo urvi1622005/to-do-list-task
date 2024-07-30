@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Setting background image */
+        body {
+            background-image: url('solarsystem.jpg');
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <map name="solarsystem-map">
+        
+        <area shape="polygon" coords="2,60 17,66 32,118 42,152 48,197 48,250 42,295 27,336 12,375" href="link1.html" alt="Link 1">
+        
+        <area shape="polygon" coords="100,213 100,220 94,216 105,216" href="link2.html" alt="Link 2">
+        <area shape="polygon" coords="120,205 122,214 118,210 129,209" href="link3.html" alt="Link 3">
+        <area shape="polygon" coords="141,206 149,196 152,212 156,203" href="link4.html" alt="Link 4">
+        <area shape="polygon" coords="174,201 183,197 180,205 177,193" href="link5.html" alt="Link 5">
+        <area shape="polygon" coords="46,136 84,147 101,136 127,149 156,144 169,160 191,156 206,183 232,191 223,222 238,248 196,262 206,272 152,286 140,322 92,313 74,347 31,337 0,368" href="link6.html" alt="Link 6">
+        <area shape="polygon" coords="300,129 304,209 251,169 356,175" href="link7.html" alt="Link 7">
+        <area shape="polygon" coords="503,128 543,118 523,85 525,160" href="link8.html" alt="Link 8">
+        <area shape="polygon" coords="577,111 628,87 595,85 604,113" href="link9.html" alt="Link 9">
+    </map>
+    
+    <img src="solarsystem.jpg" usemap="#solarsystem-map" alt="Solar System" height="700" width="1300">
+</body>
+</html>
